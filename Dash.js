@@ -42,15 +42,6 @@ const styles = StyleSheet.create({
 	column: { flexDirection: 'column' },
 })
 
-Dash.propTypes = {
-	style: ViewPropTypes.style,
-	dashGap: PropTypes.number.isRequired,
-	dashLength: PropTypes.number.isRequired,
-	dashThickness: PropTypes.number.isRequired,
-	dashColor: PropTypes.string,
-	dashStyle: ViewPropTypes.style,
-}
-
 Dash.defaultProps = {
 	dashGap: 2,
 	dashLength: 4,
